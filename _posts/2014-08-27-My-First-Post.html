@@ -28,4 +28,6 @@ It is {{page.LSS}}.
 
 ##
 
-{{page}}
+{% for link in page.links %}
+* {{link}}
+{% endfor %}
